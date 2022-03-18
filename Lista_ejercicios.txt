@@ -1,0 +1,60 @@
+5. Ejercicios 
+1. Redacta el siguiente código, genera el código ensamblador y explica en qué parte (del código ensamblador) se definen las variables c y m. (2 puntos). 
+int main(){ 
+char* c = "abcdef"; 
+int m = 11148; 
+return 0; 
+} 
+2. Redacta el siguiente código, genera el código ensamblador y explica en qué parte (del código ensamblador) se define la división entre 8. (2 puntos). 
+int main(){ 
+char* c = "abcdef"; 
+int m = 11148; 
+int x = m/8; 
+return 0; 
+} 
+3. Redacta el siguiente código, genera el código ensamblador y explica en qué parte (del código ensamblador) se define la división entre 4. (2 puntos). 
+int main(){ 
+char* c = "abcdef"; 
+int m = 11148; 
+int x = m/8; 
+int y = m/4; 
+int z = m/2; 
+return 0; 
+} 
+4. Redacta el siguiente código, genera el código ensamblador y explica en qué parte (del código ensamblador) se define la división entre 2. (2 puntos). 
+int main(){ 
+char* c = "abcdef"; 
+int m = 11148; 
+int x = m/8; 
+int y = m/4; 
+int z = m/2; 
+return 0; 
+} 
+5. Redacta el siguiente código, genera el código ensamblador y explica: (4 puntos): 
+En qué parte del código ensamblador se define la función div4. 
+En qué parte del código ensamblador se invoca a la función div4. 
+En qué parte del código ensamblador dentro de la función div4 se procesa la división. MSc. 
+
+
+6. Redacta el siguiente código, genera el código ensamblador y explica: (4 puntos): 
+En qué parte del código ensamblador se define la función div. 
+En qué parte del código ensamblador se invoca a la función div. 
+En qué parte del código ensamblador dentro de la función div se procesa la división. 
+int div(int x, int y){ 
+return x/y; 
+} 
+int div4(int x){ 
+return x/4; 
+} 
+int main(){ 
+char* c = "abcdef"; 
+int m = 11148; 
+int x = m/8; 
+int y = m/4; 
+int z = m/2; 
+int rpt = div(5,4); 
+int rpt2 = div4(5); 
+return 0; 
+} 
+7. De las preguntas anteriores, se ha generado código por cada función, ambas dividen entre 4, pero difieren un poco en su implementación. Investigue a qué se debe dicha diferencia y comente cuáles podrían ser las consecuencias. (4 puntos) 
+MSc. 
